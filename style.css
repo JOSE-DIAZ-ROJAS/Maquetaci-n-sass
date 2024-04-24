@@ -1,0 +1,107 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box; /* obligatorio recalcular el contenido de acuerdo a las propiedades del box model*/
+  margin: 0px; /*obligatorio para colocar margenes de elementos a cero*/
+  padding: 0px; /*obligatorio para colocar padding de elementos a cero*/
+}
+
+body {
+  max-width: 1350px; /*espacio seguro*/
+  margin: 0 auto; /*centrado*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*background-color:#242424;*/
+  /*border: 1px solid red;*/
+  color: black;
+}
+
+.articulo-1 {
+  /*border: 1px solid red;*/
+  height: 100px;
+  padding: 0 115px 0 115px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articulo-2 {
+  /*border: 1px solid green;*/
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.articulo-2 .hijo {
+  /* border: 1px solid green;*/
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 220px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.articulo-3 {
+  /* border: 1px solid red;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.articulo-3 .text {
+  /*border: 1px solid green;*/
+  text-align: center;
+  margin-bottom: 40px;
+}
+.articulo-3 .end {
+  /*border: 1px solid green;*/
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  margin-bottom: 40px;
+  width: 800px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enlaces {
+  /* border: 1px solid red;*/
+  color: white;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-around;
+}
+.enlaces .item {
+  display: flex;
+  flex-direction: column;
+  /* border: solid 1px green;*/
+  width: 220px;
+  min-height: 170px;
+  justify-content: space-evenly;
+}
+.enlaces .item .m {
+  margin-bottom: 5px;
+}
+
+.en {
+  text-decoration: none;
+  color: white;
+}
+
+.derechos-author {
+  /* border: 1px solid red;*/
+  height: 100px;
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 25px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,55 @@
+
+.articulo-1{
+    /*border: 1px solid red;*/
+    height: 100px;
+    padding: 0 115px 0 115px;
+    margin-bottom: 40px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.articulo-2{
+    /*border: 1px solid green;*/
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+    & .hijo{
+       /* border: 1px solid green;*/
+        background-color: aliceblue;
+        border-radius: 5px;
+        width: 220px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.articulo-3{
+   /* border: 1px solid red;*/
+display: flex;
+flex-direction: column;
+align-items: center;
+
+    & .text{
+/*border: 1px solid green;*/
+text-align: center;
+margin-bottom: 40px;
+    }
+    & .end{
+/*border: 1px solid green;*/
+background-color: aliceblue;
+border-radius: 10px;
+padding: 0 10px 0 10px;
+margin-bottom: 40px;
+width: 800px;
+height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    }
+
+}

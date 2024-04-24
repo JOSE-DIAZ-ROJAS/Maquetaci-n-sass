@@ -1,0 +1,64 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+*{
+box-sizing: border-box;/* obligatorio recalcular el contenido de acuerdo a las propiedades del box model*/
+margin: 0px;/*obligatorio para colocar margenes de elementos a cero*/
+padding: 0px; /*obligatorio para colocar padding de elementos a cero*/
+   
+}
+body{
+max-width: 1350px; /*espacio seguro*/
+margin: 0 auto; /*centrado*/
+font-family:Arial, Helvetica,sans-serif;
+/*background-color:#242424;*/
+/*border: 1px solid red;*/
+color: black;
+}
+
+@import 'body.scss';
+
+
+
+
+
+.enlaces{
+   /* border: 1px solid red;*/
+    color: white;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+
+    & .item{
+        display: flex;
+        flex-direction: column;
+       /* border: solid 1px green;*/
+        width: 220px;
+        min-height: 170px;
+        justify-content: space-evenly;
+    & .m{
+        margin-bottom: 5px;
+       
+    }
+
+    }
+}
+
+.en{
+    text-decoration: none;
+    color: white;
+}
+.derechos-author{
+   /* border: 1px solid red;*/
+    height: 100px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    
+
+}
